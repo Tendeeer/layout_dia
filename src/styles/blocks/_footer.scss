@@ -1,4 +1,8 @@
 .footer {
+  position: sticky;
+  z-index: -1;
+  bottom: 0;
+
   padding-bottom: 80px;
 
   @include on-dekstop {
